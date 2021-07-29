@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Travel Landing Page</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <!-- header starts here -->
+      <header>
+        <h2 class="logo">Travel</h2>
+        <nav class="desktop">
+          <ul>
+            <li><a href="#" class="nav__link nav__link--active">Home</a></li>
+            <li><a href="#" class="nav__link">News</a></li>
+            <li><a href="#" class="nav__link">Services</a></li>
+            <li><a href="#" class="nav__link">Blogs</a></li>
+            <li><a href="#" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- header ends here -->
+
+      <!-- embed media player here in a continuous loop -->
+
+      <video
+        src="https://assets.mixkit.co/videos/preview/mixkit-tropical-island-landscape-view-4692-large.mp4"
+        muted
+        loop
+        autoplay
+      ></video>
+
+      <!-- an overlay class in a div container to create an effect ot reduce the opacity on the video HTML element and also add a blend mode to the video -->
+      <div class="overlay"></div>
+
+      <!-- CTA in a link tag -->
+      <div class="text">
+        <h2>Never Stop</h2>
+        <h3>Exploring the World</h3>
+        <p>
+          View of the tropical island landscape, from a hill with houses, palm
+          trees and many trees, and in the distance the hills that surround the
+          sea, on a sunny day.
+        </p>
+        <a href="#">Explore</a>
+      </div>
+
+      <!-- unordered list with the class social will contain all the social links in an tag -->
+      <ul class="social">
+        <li>
+          <a href="#"
+            ><img src="https://i.ibb.co/x7P24fL/facebook.png" alt="facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="https://i.ibb.co/Wnxq2Nq/twitter.png" alt="twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="https://i.ibb.co/ySwtH4B/instagram.png" alt="instagram"
+          /></a>
+        </li>
+      </ul>
+      <!-- ul tag ends here -->
+    </section>
+
+    <!-- display menu on the mobile view with class toogle -->
+
+    <nav class="menu mobile">
+      <div class="toggle"></div>
+      <ul>
+        <li class="toggle__list"><a href="#" class="nav__link">Home</a></li>
+        <li class="toggle__list"><a href="#" class="nav__link">News</a></li>
+        <li class="toggle__list">
+          <a href="#" class="nav__link">Destination</a>
+        </li>
+        <li class="toggle__list"><a href="#" class="nav__link">Blog</a></li>
+        <li class="toggle__list"><a href="#" class="nav__link">Contact</a></li>
+      </ul>
+      <p class="footer">Designed and built by Pratima Gautam</p>
+    </nav>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
